@@ -1,7 +1,7 @@
 ---
 title: "What is Minerva?"
 teaching: 10
-exercises: 0
+exercises: 5
 questions:
 - "What is Minerva?"
 - "What are the 3 main types of Minerva Stories (for the LSP)?"
@@ -46,9 +46,9 @@ image etc. Minerva is the solution to these challenges:
    minimal loading time when you zoom and pan around the image.
 
 2. **You can provide context tailored for your target audience.** Tissue image data is incredibly
-   information-dense, especially for those who are not as familiar with your project. The
+   information-dense, especially for those who are unfamiliar with your project. The
    introductory text and waypoint description in Minerva Stories allow you to walk your audience
-   through the story of your data without physically standing next to them.
+   through your data anytime and anywhere.
 
 3. FIX ME something about sharing different data format? but Minerva only handles OME-TIFF?
 
@@ -57,14 +57,16 @@ effectively in today's tutorial.
 
 ## 3 Main Types of Minerva Stories
 
-At the LSP, we group our Minerva Stories into 3 main types. They are the Automated, Curated and
-Narrated Minerva Stories. They each have their unique advantages, use cases and required different
-amount of time to make. Today, we will practice making one of each type with the same dataset.
+At the LSP, we group our Minerva Stories into 3 main types. They are the **Automated**, **Curated** and
+**Narrated** Minerva Stories. They each have their unique advantages, use cases and requir different
+amount of time to make. Today, you will practice making one of each type with the same dataset.
 
 ### Automated
 
 Automated Stories directly uses the channel display settings Minerva recommends. FIX ME Channel
 groups are formed ... by defualt. Minimal input from the author is needed.
+
+**e.g.** [HTA-CRCATLAS-1](https://labsyspharm.github.io/HTA-CRCATLAS-1/minerva/crc03-overview.html)
 
 > ## Automated Stories can also be made as a part of the MCMICRO workflow
 > Check out the [MCMICRO webiste](https://mcmicro.org/overview/#visualization) for more information
@@ -74,9 +76,11 @@ groups are formed ... by defualt. Minimal input from the author is needed.
 
 ### Curated
 
-Automated Stories can become *Curated* with a few additional steps. Theses steps involve human
+Automated Stories can become Curated with a few additional steps. Theses steps involve human
 review for accuracy, quality and context, ensuring that the data is represented ideally and
 understandable to others.
+
+**e.g.** [Ovarian Cancer with Annotation-LSP15343](https://www.cycif.org/data/gray-stic-1-mini/), [MEL-3D-MIS-2](https://www.cycif.org/data/mel-3d-mis-2/)
 
 ### Narrated
 
@@ -85,7 +89,9 @@ and expectations vary depending on the use case. Common uses cases include a gra
 a paper, a digital figure, 'eye candy' for a grant or press, or an educational description of the
 data.
 
-FIX ME - Insert the style guide chart here?
+**e.g.** [Nuclear envelope atypia and rupture in human glioblastoma](https://www.cycif.org/data/coy-2024/), [Multimodal spatial profiling of colorectal cancer using Orion](https://labsyspharm.github.io/orion-crc/minerva-story/P37_S32-CRC04/index.html), [Cell State Dependent Effects of Bmal1 on Melanoma Immunity and Tumorigenicity](https://www.cycif.org/data/zhang-2023/)
+
+![Style guide table](../fig/style-guide-table.png)
 
 > ## Activity | What role can Minerva play in your data sharing?
 > Think of a situation where you had to share your data with anyone, a collaborator, a colleague,
