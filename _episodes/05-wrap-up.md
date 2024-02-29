@@ -41,10 +41,10 @@ keypoints:
 - Coming up with story line, writing waypoint descriptions: Juliann Tefft, Han Xu (especially if the story has an education purpose)
 - Technical challenges using Minerva Author: John Hoffer, Jeremy Muhlich
 - Pushing Stories**: John Hoffer
-> **See the next session for what John would need from story authors
+**See the next session for what John would need from story authors
 - Metadata, DOI, archiving Minerva Story - Sarah Arena
 - Navigating the website, using the tutorial - Han Xu, John Hoffer
 
-#### Checklist of what you need for John to publish the Story
+#### Publication Checklist
 
 FIX ME

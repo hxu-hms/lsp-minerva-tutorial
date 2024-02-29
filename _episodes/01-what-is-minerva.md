@@ -4,10 +4,9 @@ teaching: 10
 exercises: 0
 questions:
 - "What is Minerva?"
-- "What are the 3 main types of Minerva Stories (for the LSP)?"
-- "Why do we use Minerva in the LSP (and why you should too)?"
+- "Why do we use Minerva in the LSP?"
 objectives:
-- "Explain what Minerva is and its components"
+- "Explain what Minerva is"
 - "Discuss why is Minerva used in sharing tissue image data"
 keypoints:
 - "Minerva is the general term for Minerva Author and Minerva Story."
@@ -23,7 +22,7 @@ Minerva is a suite of light-weight software tools that enables interactive viewi
 of large image data. It comprises Minerva Author, a tool that lets you easily create and annotate
 images, and Minerva Story, a narrative image viewer for web hosting.
 
-Minerva is built to support the image data sharing for tissue atlases and digital pathology.
+Minerva is built to support the image data sharing for tissue atlases and digital pathology. LSP uses Minerva to share large tissue image data, usually but not necessarily from CYCIF.
 
 ## Why Minerva?
 
@@ -49,7 +48,7 @@ image etc. Minerva is the solution to these challenges:
    through your data anytime and anywhere.
    
 3. **No need for specialized software to open proprietary file formats** - Minerva Stories can be viewed directly in your browser. 
-   In the LSP, most our images are in OME-TIFFs. FIX ME. There is a tool called BioFormats that can convert other imaging formats into OME-TIFF (PENDING DOCUMENTION) 
+   Minerva takes OME-TIFF images and converts them into JPEGs to be viewed. In the LSP, most our images are in alreayd OME-TIFFs. If you are working with different image formats, [BioFormats](https://www.openmicroscopy.org/bio-formats/) can convert other them into OME-TIFFs.
 
 We will go over how to leverage these three key qualities of Minerva to share your data FAIR-ly and
 effectively in today's tutorial.
