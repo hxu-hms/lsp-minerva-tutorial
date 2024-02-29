@@ -43,12 +43,13 @@ image etc. Minerva is the solution to these challenges:
 1. **Minerva lets you share large images fast** - for the viewer, there's no download needed and
    minimal loading time when you zoom and pan around the image.
 
-2. **You can provide context tailored for your target audience.** Tissue image data is incredibly
+2. **You can provide context tailored for your target audience.** - Tissue image data is incredibly
    information-dense, especially for those who are unfamiliar with your project. The
    introductory text and waypoint description in Minerva Stories allow you to walk your audience
    through your data anytime and anywhere.
-
-3. **No need for specialized software to open proprietary file formats** in the LSP, we mostly have OME-TIFFs. FIX ME. There is a tool called BioFormats that can convert other imaging formats into OME-TIFF (PENDING DOCUMENTION) 
+   
+3. **No need for specialized software to open proprietary file formats** - Minerva Stories can be viewed directly in your browser. 
+   In the LSP, most our images are in OME-TIFFs. FIX ME. There is a tool called BioFormats that can convert other imaging formats into OME-TIFF (PENDING DOCUMENTION) 
 
 We will go over how to leverage these three key qualities of Minerva to share your data FAIR-ly and
 effectively in today's tutorial.
