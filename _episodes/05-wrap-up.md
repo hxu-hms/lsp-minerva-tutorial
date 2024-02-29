@@ -5,14 +5,17 @@ exercises: 5
 questions:
 - What role can Minerva play in your data sharing?
 objectives:
-- 
+- Review the 3 main types of stories
+- Consider how you would share your data with the different types of stories
 keypoints:
 - 
 ---
 
 ## Summary of the 3 styles
 
-![Style guide table](../fig/style-guide-table.png)
+![Style guide table](../fig/style-guide-table.png) {:width="80%"}
+
+<br>
 
 > ## Activity | What role can Minerva play in your data sharing?
 > Think of a situation where you had to share your data with anyone, a collaborator, a colleague,
