@@ -47,4 +47,9 @@ keypoints:
 
 #### Publication Checklist
 
-FIX ME
+story.json file
+path of image on O2
+
+Trying out this new system...
+
+Note: if they have one image, they can publish that on their own - publish on their own computer, put the resulting files on Research Files.
