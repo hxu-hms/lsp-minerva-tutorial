@@ -1,5 +1,5 @@
 ---
-title: "What is Minerva?"
+title: "Introduction"
 teaching: 10
 exercises: 0
 questions:
