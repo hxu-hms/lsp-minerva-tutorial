@@ -15,7 +15,7 @@ keypoints:
 
 ## Summary of the 3 styles
 
-![Style guide table](../fig/style-guide-table.png) {:width="80%"}
+![Style guide table](../fig/style-guide-table.png){:width="80%"}
 
 <br>
 

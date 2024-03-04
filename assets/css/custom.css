@@ -2,3 +2,7 @@ footer {
   margin-top: 94px;
   border-top: solid 1.5px #eaecef;
 }
+
+img {
+  image-rendering: inherit;
+}
