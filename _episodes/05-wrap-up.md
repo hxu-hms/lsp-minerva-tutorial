@@ -3,12 +3,12 @@ title: "Wrap-up"
 teaching: 10
 exercises: 5
 questions:
-- What are the 3 styles of Minerva Stories?
 - What role can Minerva play in your data sharing?
-- What resources are there to help me create Minerva Stories?
+- What resources are there to help you create Minerva Stories?
 objectives:
 - Review the 3 main types of stories
 - Consider how you would share your data with the different types of stories
+- Introduce the resources for LSP members to make Minerva Stories
 keypoints:
 - 
 ---
@@ -31,28 +31,38 @@ keypoints:
 
 ## Resources
 
-### Online resources
+### Minerva.im has updated and comprehensive information on Minerva
 
 [Minerva website](https://www.minerva.im)
+
+
+### HiTS-internal SharePoint has information tailored for LSP members
+
 [Data Sharing with Minerva on HiTS SharePoint](https://hu.sharepoint.com/sites/HiTS/SitePages/Data-Sharing-with-Minerva.aspx?csf=1&web=1&e=MqX6bG&cid=cff8ff08-d09d-44b2-8228-e95d70bfa79f)
 
-### Contact people
+*If you don't have access to SharePoint, please contact Sarah Arena.*
 
-- Coming up with story line, writing waypoint descriptions: Juliann Tefft, Han Xu (especially if the story has an education purpose)
-- Technical challenges using Minerva Author: John Hoffer, Jeremy Muhlich
-- Pushing Stories**: John Hoffer
-**See the next session for what John would need from story authors
-- Metadata, DOI, archiving Minerva Story - Sarah Arena
-- Navigating the website, using the tutorial - Han Xu, John Hoffer
+### We are here to help!
+
+A team of us are here to help you throughout your Story creation process. Below is a list of whom to contact:
+
+- Coming up with story line, writing waypoint descriptions: **Juliann Tefft**, **Han Xu** (especially if the story has an education purpose)
+
+- Technical challenges using Minerva Author: **John Hoffer**, **Jeremy Muhlich**
+
+- Metadata, DOI, archiving Minerva Story: **Sarah Arena**
+
+- Navigating the website, using the tutorial: **Han Xu**, **John Hoffer**
+
+- Pushing Stories: **John Hoffer**
+
+*See the next session for what John would need from story authors.
 
 #### Publication Checklist
 
-story.json file
-path of image on O2
+When you are ready to publish your Story, provide these two things to John:
 
-Trying out this new system...
-
-Note: if they have one image, they can publish that on their own - publish on their own computer, put the resulting files on Research Files.
-
+| **story.json file** | When you Save your progress in Minerva Author, a story.json file will be created and saved in the same folder as your Minerva Author executable |
+| **path of image on O2** | If your image is not on O2... FIX ME |
 
 {% include links.md %}
