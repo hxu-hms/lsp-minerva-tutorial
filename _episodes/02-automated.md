@@ -20,3 +20,6 @@ groups are formed ... by defualt. Minimal input from the author is needed.
 > on this (FIX ME - do we have documentation on this? The MCMICRO website currently links to Wiki).
 > We will not demonstrate this route in today's tutorial.
 {: .callout}
+
+
+{% include links.md %}

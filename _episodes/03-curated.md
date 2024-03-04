@@ -15,3 +15,5 @@ review for accuracy, quality and context, ensuring that the data is represented 
 understandable to others.
 
 **e.g.** [Ovarian Cancer with Annotation-LSP15343](https://www.cycif.org/data/gray-stic-1-mini/), [MEL-3D-MIS-2](https://www.cycif.org/data/mel-3d-mis-2/)
+
+{% include links.md %}

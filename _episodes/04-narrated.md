@@ -21,3 +21,5 @@ data.
 
 
 ## Make a new waypoint
+
+{% include links.md %}
