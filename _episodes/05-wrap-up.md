@@ -10,7 +10,8 @@ objectives:
 - Consider how you would share your data with the different types of stories
 - Introduce the resources for LSP members to make Minerva Stories
 keypoints:
-- 
+- minerva.im and SharePoint are the two best go-to places for information on Minerva.
+- A team of us are here to help you throughout your story creation process!
 ---
 
 ## Summary of the 3 styles
@@ -50,13 +51,18 @@ A team of us are here to help you throughout your Story creation process. Below 
 
 - Technical challenges using Minerva Author: **John Hoffer**, **Jeremy Muhlich**
 
-- Metadata, DOI, archiving Minerva Story: **Sarah Arena**
+- Metadata: **Sarah Arena**
+
+- DOI/archiving Minerva Story: **Sarah Arena**, **John Hoffer**
 
 - Navigating the website, using the tutorial: **Han Xu**, **John Hoffer**
 
 - Pushing Stories: **John Hoffer**
 
 *See the next session for what John would need from story authors.
+
+- Adding your published story to the [Harvard Tissue Atlas](https://www.tissue-atlas.org) website: **Sarah Arena**
+
 
 #### Publication Checklist
 

@@ -12,7 +12,7 @@ keypoints:
 - "Minerva is the general term for Minerva Author and Minerva Story."
 - "Minerva Author is the software tool to create Minerva Story. Minerva Story is a narrative image viewer for web hosting."
 - "Minerva turns large image files into smaller ones that can be loaded as needed, allowing interactive and fast viewing in a browser."
-- "You can annotate your image data when sharing with Minerva, providing important context to help the audience understand the data"
+- "You can annotate your image data when sharing with Minerva, providing important context for your audience"
 - "LSP uses Minerva to share large tissue image data, usually but not necessarily from CYCIF."
 ---
 
