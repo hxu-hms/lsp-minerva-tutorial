@@ -20,6 +20,8 @@ keypoints:
 
 Curated Stories require two of the three tabs shown at the top of the Minerva Author interface. Namelny, curated Stories require the "Sample Info" and "Edit Groups" tabs. In the "Sample Info" tab, you can define how the image is initially presented in the Story. In the "Edit Groups" tab, you can define a curated list of "channel groups." Each channel group combines a selection of channels to represent the image in different ways.
 
+![Two relevant tabs](../fig/screenshot-tabs.jpg){:style="max-width: 800px;"}
+
 ## Edit Groups
 
 Curated stories include fine-tuned rendering settings, which can be created through the "Edit Groups" tab. This tab is open once an image is loaded into Minerva Author.
