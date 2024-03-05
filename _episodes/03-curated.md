@@ -16,7 +16,7 @@ keypoints:
 * A curated Story specifically includes [MITI](https://www.tissue-atlas.org/curriculum#miti-minimum-information-about-tissue-imaging) metadata and fine-tuned rendering settings.
 * The stories ensure that the data is represented ideally and understandable to others.
 
-## Tabs and their features
+## Tabs and features
 
 Curated Stories require two of the three tabs shown at the top of the Minerva Author interface. Namelny, curated Stories require the "Sample Info" and "Edit Groups" tabs. In the "Sample Info" tab, you can define how the image is initially presented in the Story. In the "Edit Groups" tab, you can define a curated list of "channel groups." Each channel group combines a selection of channels to represent the image in different ways.
 
@@ -48,7 +48,7 @@ You can add a channel to the active channel group by opening the channel dropdow
 
 You can provide a brief (no more than 30-character) description for a given channel by clicking the encircled "i" to the right of any given channel. Then, you can enter the channel's description into the provided text field. This description will be shown in the Story adjacent to the name of the described channel.
 
-![Showing a hidden channel](../fig/screenshot-show-channel.jpg){:style="max-width: 800px;"}
+![Showing a hidden channel](../fig/screenshot-describe-channel.jpg){:style="max-width: 800px;"}
 
 
 ### Toggle a channel
@@ -68,8 +68,6 @@ You can move the endpoints of the yellow range slider to adjust the brightness a
 You can select the small square to the left of the channel name to adjust the color applied to that channel. You can then select a color within the color selection menu. Any adjustments will to apply to channel within the scope of the active channel group and within any new channel groups created thereafter.
 
 ![Color selection](../fig/screenshot-recolor-channel.jpg){:style="max-width: 800px;"}
-
-### Add a channel group
 
 ## Sample Info
 
