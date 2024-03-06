@@ -49,7 +49,7 @@ You can scroll your mouse, use your trackpad, or click-and-drag to move the acti
 
 A waypoint corresponds to a field of view and a group of channels. Additionally, you can add a text description within a waypoint to provide context for the field of view and associated channel group.
 
-![Describe a waypoint](../fig/screenshot-describe-waypoint.jpg){:style="max-width: 800px;"}
+![Describe a waypoint](../fig/screenshot-describe-waypoints.jpg){:style="max-width: 800px;"}
 
 ### Add a region of interest
 
