@@ -9,7 +9,13 @@ objectives:
 - Save and Load a story to a file.
 - Publish a story to create web-ready files for sharing.
 keypoints:
-- 
+- Automated Stories are for quick or large-scale data sharing
+- Minerva Author runs in a terminal window but you interact with it through a web browser
+- Story creation begins with selecting an OME-TIFF image
+- Channel groups define meaningful sets of image channels
+- The Auto Group button groups all channels using simple rules
+- Stories are saved and loaded as small .story.json files
+- Publishing a story created a package of files that must be uploaded to a website hosting service
 ---
 
 ## **Automated** Stories are for quick or large-scale data sharing
@@ -152,7 +158,15 @@ continue. In the future, you can use the Cancel button if you ever click Auto Gr
 > ## Auto Group results
 >
 > What do you notice has changed on the screen after running Auto Group?
-{: .challenge}
+> > ## Solution
+> >
+> > * The image is now more colorful, showing more channels at once
+> > * The channel groups list in the upper left now shows more channel names
+> > * The channel settings area in the middle left now shows more channels
+> > * The channel group selector now shows the name "Group 1" instead of "Overview" (minor point)
+> >
+> {: .solution}
+{: .discussion}
 
 ### Channel grouping rules
 
@@ -183,6 +197,14 @@ in a new tab. Explore the story in preview mode and close that browser tab when 
 
 ![Preview button](../fig/screenshot-preview.jpg){:style="max-width: 800px;" }
 
+> ## Pair discussion: Critique the Automated story
+>
+> Before closing the preview mode tab, turn to your neighbor and discuss together what you do and
+> don't like about the Automated story we just created. Take a moment to notice what is drawing your
+> eye. Do these things help you understand the data or are they making it difficult? What might you
+> want to change?
+{: .discussion}
+
 
 ## Save your story
 
@@ -194,9 +216,15 @@ button next to the minerva-tutorial folder. If you accidentally navigate into th
 folder instead of clicking Select, click the left arrow button in the top left to go back up one
 level.
 
+![Save As button](../fig/screenshot-saveas.jpg){:style="max-width: 800px;" }
+
 Click in the "output name" field, delete the existing text and type `tonsil-tutorial`. This name
 will be used along with the extension `.story.json` to create your story save file. In this case the
-full file name will be `tonsil-tutorial.story.json`.
+full file name will be `tonsil-tutorial.story.json`. Now, click the "Save As" button on the dialog
+to save the file and close the dialog.
+
+![Save dialog](../fig/screenshot-save-dialog.jpg){:style="max-width: 800px;" }
+
 
 ### Story save files only point to original image data
 
@@ -254,21 +282,10 @@ below it. Once the progress bar reaches 100%, the file package is complete.
 {: .callout}
 
 
-## TODO integrate this text
+## Episode wrap-up
 
-* Minerva Author will adapt your image data for visual presentation using statistical models and
-  best-effort heuristics. Usually they work well but sometimes they do fail to produce the results
-  you were expecting. We will discuss how to address these failures in the next episode.
-
-
-
-**e.g.** [HTA-CRCATLAS-1](https://labsyspharm.github.io/HTA-CRCATLAS-1/minerva/crc03-overview.html)
-
-> ## Automated Stories can also be made as a part of the MCMICRO workflow
-> Check out the [MCMICRO webiste](https://mcmicro.org/overview/#visualization) for more information
-> on this (FIX ME - do we have documentation on this? The MCMICRO website currently links to Wiki).
-> We will not demonstrate this route in today's tutorial.
-{: .callout}
-
+Automated stories will adapt your image data for visual presentation using statistical models and
+best-effort heuristics. Usually they work well but sometimes they do fail to produce the results you
+were expecting. We will discuss how to address these failures in the next episode.
 
 {% include links.md %}

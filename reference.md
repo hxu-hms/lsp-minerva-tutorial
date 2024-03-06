@@ -2,6 +2,18 @@
 layout: reference
 ---
 
+## Example stories
+
+### Automated
+* [HTA-CRCATLAS-1](https://labsyspharm.github.io/HTA-CRCATLAS-1/minerva/crc03-overview.html)
+
+### Curated
+
+
+### Narrated
+
+
+
 ## Glossary
 
 | **Waypoint** | A specific location in the tissue image. For example, blood vessel, lymph node margin. The most basic waypoint consists of a user-selected area on the slide and the related text description. |
