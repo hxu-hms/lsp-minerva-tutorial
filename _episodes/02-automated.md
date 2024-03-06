@@ -3,9 +3,11 @@ title: "Automated Stories"
 teaching: 10
 exercises: 5
 questions:
-- 
+- How can I share my large tissue images with collaborators or the public?
 objectives:
-- 
+- Create a new Minerva Story from an OME-TIFF image.
+- Save and Load a story to a file.
+- Publish a story to create web-ready files for sharing.
 keypoints:
 - 
 ---
