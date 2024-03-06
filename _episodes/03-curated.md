@@ -85,7 +85,7 @@ You can paste MITI Metadata from the provided template into the "Sample Descript
 
 ### Save your Story
 
-At this point, you may click "Save", or "Save As" to store a configuration file containing the changes you have made. The "Save" button will output the configuration file in the same directory as the Minerva Author executable file. The "Save As" option will enable you to save a configuration file to an arbitrary directory with a new name.
+At this point, you can click "Save As" to store a configuration file containing the changes you have made. The "Save As" option will enable you to save a configuration file to an arbitrary directory with a new name.
 
 ![Save Story](../fig/screenshot-save-story.jpg){:style="max-width: 800px;"}
 
