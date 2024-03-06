@@ -66,9 +66,9 @@ A team of us are here to help you throughout your Story creation process. Below 
 
 #### Publication Checklist
 
-When you are ready to publish your Story, provide these two things to John:
+When you are ready to publish your Story, provide these things to John:
 
 | **story.json file** | When you Save your progress in Minerva Author, a story.json file will be created and saved in the same folder as your Minerva Author executable |
-| **path of image on O2** | If your image is not on O2... FIX ME |
+| (optionally) **path of image on O2** | Your story.json files will contain a reference to your image data, but if file has moved or file name has changed, it may be hard to locate. John will follow up if he needs your image file path. |
 
 {% include links.md %}
