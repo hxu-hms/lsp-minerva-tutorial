@@ -203,6 +203,10 @@ Now we will refine our two channel groups to contain the correct channels.
 >   * CD3D
 {: .challenge}
 
+> ## Channels may extend beyond your screen 
+> When a channel group contains more channels than can be displayed on a single screen,
+> you can use your mouse or trackpad to scroll down to view the additional channels.
+{: .callout}
 
 ## Adjusting per-channel settings
 
@@ -281,13 +285,15 @@ the image and destroy the texture and finer details of those cells. Raising the 
 effect of hiding background signal and dimmer non-specific binding, raising the apparent
 signal-to-noise ratio. However raising it too far will hide important details in the dimmer regions
 of the image. Adjusting the intensity cutoff values requires making tradeoffs between a punchy image
-and faithfully representing the data. Always keep in mind the biology you want to highlight to
-ensure you are presenting what you want your viewer to see.
+and faithfully representing the data.
+
+The intensity range slider provides a direct way to control how each image channel is rendered, yet
+has the same effect as adjusting brightness and contrast. The goal is to keep in mind the biological
+significance of the image representation while presenting what you want your viewer to see.
 
 ![Channel rendering](../fig/screenshot-channel-rendering.jpg){:style="max-width: 800px;"}
 
 > ## Adjust channel intensity cutoffs
-
 > Zoom in to focus on the area between the upper right border of the germinal center and the crypt
 > epithelium. The DNA and CD45 channels are brightest in this region. The Automated settings left
 > things a bit too saturated here, so adjust the intensity cutoffs to fix the problem.
@@ -299,11 +305,30 @@ ensure you are presenting what you want your viewer to see.
 ## Color selection
 
 You can select the small square to the left of the channel name to adjust the color applied to that
-channel. You can then select a color within the color selection menu. Any adjustments will to apply
-to channel within the scope of the active channel group and within any new channel groups created
-thereafter.
+channel. You can then select a color within the color selection menu. When satisfied with the color
+chosen, you can then close the color selection menu by clicking outside of it. Any adjustments will
+apply to channel within the scope of the active channel group and within any new channel groups
+created thereafter.
 
 ![Color selection](../fig/screenshot-recolor-channel.jpg){:style="max-width: 800px;"}
+
+Selecting the color of each channel is a subjective process, but there are several considerations it
+is important to understand. Fist, the channels in each group are individually colorized and added to
+create a linearly composited image. Second, the number of distinct channels that can be visualized
+in a composit image is quite limited. This limitation is due to the nature of additive colors, where,
+for example, a green channel and a blue channel would be indistinguishable from a yellow channel.
+These limitations can be circumvented by considering the spatial overlap of channels.
+
+> ## Select channel colors
+> In the "Edit Groups" tab, select the "Structure Components" group
+> * Set the DNA1 channel's color to blue.
+> * Set the Keratin channel's color to white.
+> * Set the Ki67 channel's color to yellow.
+> * Set the α-SMA channel's color to red.
+> * Set the CD45 channel's color to green.
+{: .challenge}
+
+![Chosen color selection](../fig/screenshot-recolor-channel-done.jpg){:style="max-width: 800px;"}
 
 ## Save your Story
 
