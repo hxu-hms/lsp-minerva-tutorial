@@ -3,9 +3,14 @@ title: "Curated Stories"
 teaching: 10
 exercises: 5
 questions:
-- 
+- How can I improve my automated story to better explain my science?
 objectives:
-- 
+- Switch between Minerva Author's three main editing modes and understand what tasks each one is used for.
+- Enter sample overview information including MITI metadata.
+- Create, rename and delete channel groups.
+- Refine channel groups by adding and removing channels.
+- Add channel description text to help viewers interpret the image.
+- Adjust channel color and brightness & contrast to highlight desired image features while de-emphasizing irrelevant ones.
 keypoints:
 - 
 ---
@@ -138,6 +143,11 @@ right of its name.
 
 ![Add or remove a Channel Group](../fig/screenshot-add-remove-group.jpg){:style="max-width: 800px;"}
 
+> ## Removing a channel group never deletes the channels that were in it
+> Channels themselves can never be deleted from a story. If you delete a channel group, its channels
+> always remain available to add to other groups.
+{: .callout}
+
 Let's make our first group show the overall tissue architecture of the tonsil tissue, along with a
 general-purpose immune cell marker. It looks like Group 1 is already pretty close, containing DNA,
 Ki-67, and Keratin, so we will rename Group 1 for this purpose. Then we will create a new group to
@@ -163,6 +173,19 @@ all cells are located regardless of marker expression.
 
 ![Add or remove a Channel](../fig/screenshot-add-remove-channel.jpg){:style="max-width: 800px;"}
 
+> ## Removing a channel from a group does not delete the actual channel
+> This is another reminder that channels themselves can never be deleted from a story. If you remove a
+> channel from a group, it always remains available to add to other groups.
+{: .callout}
+
+
+## Reordering channels within a group
+
+You can drag the gray channel name boxes left and right to change their order. This only changes the
+order in which the channels will be presented in the published story's channel legend but can be
+useful in some cases.
+
+
 Now we will refine our two channel groups to contain the correct channels.
 
 > ## Add and remove channels from groups
@@ -172,7 +195,8 @@ Now we will refine our two channel groups to contain the correct channels.
 > 2. Remove the following channels from the "Structural components" group:
 >   * CD3D
 >   * CD4
-> 2. Add the following channels to the "Immune cells" group:
+> 3. Drag Keratin left to order it between DNA1 and Ki-67.
+> 4. Add the following channels to the "Immune cells" group:
 >   * CD20
 >   * CD8A
 >   * CD4
@@ -184,6 +208,16 @@ Now we will refine our two channel groups to contain the correct channels.
 
 Now we will move our focus down from the channel dropdown menu to the channel settings list where we
 can adjust name, color, brightness and contrast, and more.
+
+## Renaming channels
+
+You may rename a channel by clicking on the box containing its name in the channel settings list and
+editing the text.
+
+> ## Rename channels
+> * Edit the DNA1 channel's name to "DNA".
+> * Edit the KI67 channel's name to "Ki-67".
+{: .challenge}
 
 ## Creating channel descriptions
 
@@ -224,13 +258,50 @@ temporarily isolate channels when adjusting color or brightness and contrast set
 
 ## Brightness and contrast
 
-You can move the endpoints of the yellow range slider to adjust the brightness and contrast of the corresponding channel in the active channel group. Moving the right handle of slider from left to right will darken the corresponding channel. Moving the right handle of the slider from right to left will brighten the corresponding channel. Any adjustments will to apply to channel within the scope of the active channel group and within any new channel groups created thereafter.
+You can move the endpoints of the yellow intensity range slider to adjust the brightness and
+contrast of the corresponding channel in the active channel group. Moving the right handle of slider
+will set the upper intensity cutoff value, meaning all pixels brighter than this value will be
+displayed at maximum brightness. The left handle controls the lower cutoff, meaning all pixels
+dimmer than this value will be displayed as black, in other words not visible. Pixel values in
+betweeen the two cutoffs will be mapped linearly to brightness values on the screen display. Any
+adjustments will to apply to the channel across all channel groups it is in and any groups it may be
+added to in the future.
+
+Notice that these cutoffs are all at different values in each channel, and they did not start at
+their extreme values as is often the case in other image display applications. This is part of the
+Automated story process and actually happened when you first loaded the image in the previous
+episode. Minerva Author uses a statistical model to make a principled guess at what the cutoff
+values should be based on the distribution of pixel intensity values in each channel, but it isn't
+perfect and it has no idea of what part of the signal intensity scale is actually relevant to your
+biology.
+
+Lowering the upper cutoff has the effect of increasing the channel image brightness, so you usually
+want to lower it as far as possible. However lowering it too far will wash out the brighest parts of
+the image and destroy the texture and finer details of those cells. Raising the lower cutoff has the
+effect of hiding background signal and dimmer non-specific binding, raising the apparent
+signal-to-noise ratio. However raising it too far will hide important details in the dimmer regions
+of the image. Adjusting the intensity cutoff values requires making tradeoffs between a punchy image
+and faithfully representing the data. Always keep in mind the biology you want to highlight to
+ensure you are presenting what you want your viewer to see.
 
 ![Channel rendering](../fig/screenshot-channel-rendering.jpg){:style="max-width: 800px;"}
 
-### Color selection
+> ## Adjust channel intensity cutoffs
 
-You can select the small square to the left of the channel name to adjust the color applied to that channel. You can then select a color within the color selection menu. Any adjustments will to apply to channel within the scope of the active channel group and within any new channel groups created thereafter.
+> Zoom in to focus on the area between the upper right border of the germinal center and the crypt
+> epithelium. The DNA and CD45 channels are brightest in this region. The Automated settings left
+> things a bit too saturated here, so adjust the intensity cutoffs to fix the problem.
+>
+> (Hint: You will probably want to toggle the other channels off to view one channel at a time here)
+{: .challenge}
+
+
+## Color selection
+
+You can select the small square to the left of the channel name to adjust the color applied to that
+channel. You can then select a color within the color selection menu. Any adjustments will to apply
+to channel within the scope of the active channel group and within any new channel groups created
+thereafter.
 
 ![Color selection](../fig/screenshot-recolor-channel.jpg){:style="max-width: 800px;"}
 
