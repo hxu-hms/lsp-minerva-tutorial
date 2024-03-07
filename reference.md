@@ -8,7 +8,8 @@ layout: reference
 * [HTA-CRCATLAS-1](https://labsyspharm.github.io/HTA-CRCATLAS-1/minerva/crc03-overview.html)
 
 ### Curated
-
+* [Ovarian Cancer with Annotation-LSP15343](https://www.cycif.org/data/gray-stic-1-mini/)
+* [MEL-3D-MIS-2](https://www.cycif.org/data/mel-3d-mis-2/)
 
 ### Narrated
 

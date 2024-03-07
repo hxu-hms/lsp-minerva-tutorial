@@ -13,14 +13,102 @@ keypoints:
 ## **Curated** Stories are reviewed for quality and context
 
 * Curated stories involve human review for accuracy, quality and context.
-* A curated Story specifically includes [MITI](https://www.tissue-atlas.org/curriculum#miti-minimum-information-about-tissue-imaging) metadata and fine-tuned rendering settings.
+* A curated story specifically includes [MITI](https://www.tissue-atlas.org/curriculum#miti-minimum-information-about-tissue-imaging) metadata and fine-tuned rendering settings.
 * The stories ensure that the data is represented ideally and understandable to others.
 
-## Tabs and features
+## The authoring interface has three main modes
 
-Curated Stories require two of the three tabs shown at the top of the Minerva Author interface. Namelny, curated Stories require the "Sample Info" and "Edit Groups" tabs. In the "Sample Info" tab, you can define how the image is initially presented in the Story. In the "Edit Groups" tab, you can define a curated list of "channel groups." Each channel group combines a selection of channels to represent the image in different ways.
+Minerva Author has three main modes for editing a story. You can switch between these modes by
+clicking the gray buttons just below the Save/Publish/Preview buttons.
 
-![Two relevant tabs](../fig/screenshot-tabs.jpg){:style="max-width: 800px;"}
+1. **Sample Info** lets you adjust settings and enter information that relate to your image as a
+   whole and manage the initial image view shown when viewers first open your story.
+2. **Edit Groups** is where you manage Channel Groups, which we briefly touched on in the previous
+   episode.
+3. **Edit Story** allows creating narrative guide elements.
+
+For Curated stories we will only work with the first two, Sample Info and Edit Groups.
+
+![Sample Info and Edit Groups modes for Curated stories](../fig/screenshot-tabs.jpg){:style="max-width: 800px;"}
+
+## Sample Info
+
+Click the "Sample Info" button to switch to Sample Info editing mode.
+
+![Opening Sample Info](../fig/screenshot-sample-info.jpg){:style="max-width: 800px;"}
+
+## Enter sample name
+
+Although the first item at the top of the edit screen is the Channel Groups selector, we will skip
+over this for now and return to it later. The first thing we will edit is the Sample Name field,
+which will serve as the title of the story. The LSP guidelines for a Curated story title are as
+follows:
+
+* Less than 75 characters (including spaces)
+* Include the following pieces of information:
+  1. Tissue histology or sample type
+  2. Sample identifier (usually LSP Slide ID)
+  3. Preparation or imaging method (optional)
+
+![Style Guide - Curated story title](../fig/style-title-curated.jpg){:style="max-width: 800px;"}
+
+For this story we will follow these guidelines and use the title "Tonsil - TONSIL-1 - CyCIF". You
+can find this title text in the file content-03.txt that we downloaded during setup. Open that text
+file now and leave it open for the rest of this episode as we will be copying other pieces of text
+from it. The title text is at the top under the heading "Title".
+
+## Write a plain-language summary to provide context
+
+Next we will proceed down the screen to the Sample Description field. Here you will begin by writing
+a short summary of the sample in plain text to provide context to viewers of the story. This summary
+should include a few key pieces of metadata such as the sample origin, basic demographics, and
+patient diagnosis. You can find a pre-written summary in content-03.txt under the heading "Sample
+summary". Copy the text there and paste it into Minerva Author in the Sample Description field.
+
+The Sample Description field allows you to apply rich text formatting using a special syntax called
+Markdown. You can look up a Markdown guide online to find out what it can do, and we've provided a
+link to such a guide in the reference material for this lesson. The provided summary text does not
+use any Markdown syntax, but in the next step we will see some basic examples.
+
+## Paste and edit the MITI metadata template
+
+Below the summary text you will now append relevant metadata fields based on the MITI (Minimum
+Information about Tissue Imaging) standard. LSP has a comprehensive metadata template hosted on
+SharePoint, but for today we will use a shortened version. The template provides an easy-to-edit
+Markdown-formatted list of the metadata fields that you should strongly consider filling out where
+relevant. It provides a common baseline that all Curated stories at LSP should meet, but you can
+always add more fields to your story if you like.
+
+Switch to content-03.txt and copy the text under the heading "Metadata template". Paste the text
+below the summary text we added in the previous step. You will notice some unusual punctuation
+characters like pound signs and asterisks -- these are part of the special Markdown syntax to create
+headings, bold text, and the like, but you will not have to touch any of that for the template. You
+will fill in your values at the end of each line or edit the placeholder text as needed. It is
+important to enter your text immediately next to the final asterisk, leaving the two blank spaces at
+the end of each line in place (these spaces are required for the template formatting to work
+properly).
+
+![MITI metadata template](../fig/screenshot-paste-metadata.jpg){:style="max-width: 800px;"}
+
+Lastly, using the field values provided below the metadata template section in content-03.txt, fill
+in the corresponding lines in the metadata template (Site of Resection or Biopsy, Microscope,
+Objective, and Attribution). I will fill out my template as a reference to follow. For this
+tutorial, you can choose to either delete all the irrelevant or unknown fields or play around with
+filling them out however you wish. As the sample was fully deidentified as part of the sample
+collection protocol, we simply don't have much information about the patient.
+
+Click the Preview button to view your Sample Description content as it will look once published and
+make sure the content and formatting looks the way you want it to. Close the preview tab when you're
+ready to continue.
+
+## Verify or enter pixel size to create a scale bar
+
+Farther down the screen you will see a field labeled "Pixel size, in microns". A value of
+approximately 0.325 should have been automatically loaded from the OME-TIFF metadata in our example
+image. For your own stories, always check that this value is correct. If it is blank, look up the
+pixel size for your image (also called nominal image resolution) and enter it here. The value must
+always be specified in microns. The value in this field will be used to give your story a scale bar,
+which is a crucial component of image interpretability.
 
 ## Edit Groups
 
@@ -69,28 +157,9 @@ You can select the small square to the left of the channel name to adjust the co
 
 ![Color selection](../fig/screenshot-recolor-channel.jpg){:style="max-width: 800px;"}
 
-## Sample Info
+## Save your Story
 
-Curated stories include MITI metadata, which can be added through the "Sample Info" tab. From the three available tabs, find and select the "Sample Info" tab:
+After all of this work, make sure to click the Save button!
 
-![Opening Sample Info](../fig/screenshot-sample-info.jpg){:style="max-width: 800px;"}
-
-
-### Enter MITI Metadata
-
-You can paste MITI Metadata from the provided template into the "Sample Description" field of the "Sample Info" tab. You can also enter the microscope resolution in terms of the pixel size in microns.
-
-![Paste Metadata](../fig/screenshot-paste-metadata.jpg){:style="max-width: 800px;"}
-
-
-### Save your Story
-
-At this point, you can click "Save As" to store a configuration file containing the changes you have made. The "Save As" option will enable you to save a configuration file to an arbitrary directory with a new name.
-
-![Save Story](../fig/screenshot-save-story.jpg){:style="max-width: 800px;"}
-
-## Example of Curated Story
-
-**e.g.** [Ovarian Cancer with Annotation-LSP15343](https://www.cycif.org/data/gray-stic-1-mini/), [MEL-3D-MIS-2](https://www.cycif.org/data/mel-3d-mis-2/)
 
 {% include links.md %}
