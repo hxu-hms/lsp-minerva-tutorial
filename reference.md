@@ -12,7 +12,9 @@ layout: reference
 * [MEL-3D-MIS-2](https://www.cycif.org/data/mel-3d-mis-2/)
 
 ### Narrated
-
+* [Nuclear envelope atypia and rupture in human glioblastoma](https://www.cycif.org/data/coy-2024/)
+* [Multimodal spatial profiling of colorectal cancer using Orion](https://labsyspharm.github.io/orion-crc/minerva-story/P37_S32-CRC04/index.html)
+* [Cell State Dependent Effects of Bmal1 on Melanoma Immunity and Tumorigenicity](https://www.cycif.org/data/zhang-2023/)
 
 
 ## Glossary

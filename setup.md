@@ -40,11 +40,13 @@ Download Minerva Author and unzip it according to the following instructions for
 
 ## Download the sample data
 
-Create a folder on your desktop named `minerva-tutorial`. Download the following two files and move
+Create a folder on your desktop named `minerva-tutorial`. Download the following files and move
 them to the newly created `minerva-tutorial` folder:
 
 * [tonsil.ome.tif](https://htan-minerva-story-testing.s3.amazonaws.com/tonsil/tonsil.ome.tif) (340 MB)
 * [tonsil-markers.csv](https://htan-minerva-story-testing.s3.amazonaws.com/tonsil/tonsil-markers.csv)
+* [content-03.txt](https://htan-minerva-story-testing.s3.amazonaws.com/tonsil/content-03.txt)
+* [content-04.txt](https://htan-minerva-story-testing.s3.amazonaws.com/tonsil/content-04.txt)
 
 
 {% include links.md %}
