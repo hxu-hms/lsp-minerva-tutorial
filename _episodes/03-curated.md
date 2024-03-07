@@ -19,7 +19,9 @@ keypoints:
 ## The authoring interface has three main modes
 
 Minerva Author has three main modes for editing a story. You can switch between these modes by
-clicking the gray buttons just below the Save/Publish/Preview buttons.
+clicking the gray buttons just below the Save/Publish/Preview buttons. We will follow a particular
+sequence through the different modes during this tutorial, but on your own you are free to switch
+back and forth at any time.
 
 1. **Sample Info** lets you adjust settings and enter information that relate to your image as a
    whole and manage the initial image view shown when viewers first open your story.
@@ -110,42 +112,117 @@ pixel size for your image (also called nominal image resolution) and enter it he
 always be specified in microns. The value in this field will be used to give your story a scale bar,
 which is a crucial component of image interpretability.
 
-## Edit Groups
+## Editing channel groups and channel settings
 
-Curated stories include fine-tuned rendering settings, which can be created through the "Edit Groups" tab. This tab is open once an image is loaded into Minerva Author.
+Next we will spend some time learning how to edit channel groups and channel settings. Click the
+"Edit Groups" button to switch to that mode.
 
-### Select and rename a channel group
+As we have seen, the way the image channels are grouped by the Automated story creation process does
+not necessarily highlight useful aspects of tissue biology that you might wish to show to your story
+viewers. The first thing we will do to address that is decide on more useful groups and rearrange
+our channels accordingly.
 
-You can select to edit a given channel group from the dropdown menu under "Channel Groups:". Each channel group must have a unique name. To change the name of a channel group, you can click the "Rename" button. Then, you can enter the new channel group's name into the provided text field.
+## Select and rename a channel group
+
+You can select a channel group to work with from the dropdown menu under "Channel Groups". To change
+the name of a channel group, click the "Rename" button, type the new name into the popup, then click
+OK. Each channel group must have a unique name within a story.
 
 ![Renaming Channel Group](../fig/screenshot-rename-group.jpg){:style="max-width: 800px;"}
 
-### Add or remove a channel group
+## Addding and removing a channel group
 
-A channel group can be added either by clicking "Add Group", or by typing a new name directly into the "Channel Groups" dropdown menu. The currently active channel group can be removed by clicking the "X" within the right side of the "Channel Groups" dropdown menu.
+A new channel group can be added by clicking "Add Group", typing the desired name in to the popup,
+and clicking "OK". The currently active channel group can be removed by clicking the "X" just to the
+right of its name.
 
 ![Add or remove a Channel Group](../fig/screenshot-add-remove-group.jpg){:style="max-width: 800px;"}
 
-### Add or remove a channel
+Let's make our first group show the overall tissue architecture of the tonsil tissue, along with a
+general-purpose immune cell marker. It looks like Group 1 is already pretty close, containing DNA,
+Ki-67, and Keratin, so we will rename Group 1 for this purpose. Then we will create a new group to
+highlight different immune cell types, and lastly delete Group 2.
 
-You can add a channel to the active channel group by opening the channel dropdown menu and selecting a channel from among the list. Or, you can search for a channel to add by typing into the list of options. Individual channels can be cleared by clicking the "X" to the right of a channel name in the list of options. entire channel group can be cleared by clicking the rightmost "X".
+> ## Rename, add and remove channel groups
+> 1. Rename the channel group "Group 1" to "Structural components".
+> 2. Add a new channel group named "Immune cells".
+> 3. Delete channel group "Group 2".
+{: .challenge}
+
+
+## Adding and removing channels from groups
+
+You can add a channel to the active channel group by clicking the down arrow in the channel dropdown
+menu (or the empty white space to the left of the arrow) to open the list of channels, followed by
+clicking a channel. You can also type to search for a channel by name while the channel list is
+open. Remove a channel from the group by clicking the small "X" next to its name. If you ever want
+to remove all channels from a group, click the large "X" near the right side of the channel dropdown
+menu. Note that a channel may belong to more than one group at the same time -- for example, many
+stories of CyCIF images include the first DNA channel in every group as a reference to show where
+all cells are located regardless of marker expression.
 
 ![Add or remove a Channel](../fig/screenshot-add-remove-channel.jpg){:style="max-width: 800px;"}
 
-### Describe a channel
+Now we will refine our two channel groups to contain the correct channels.
 
-You can provide a brief (no more than 30-character) description for a given channel by clicking the encircled "i" to the right of any given channel. Then, you can enter the channel's description into the provided text field. This description will be shown in the Story adjacent to the name of the described channel.
+> ## Add and remove channels from groups
+> 1. Add the following channels to the "Structural components" group:
+>   * α-SMA
+>   * CD45
+> 2. Remove the following channels from the "Structural components" group:
+>   * CD3D
+>   * CD4
+> 2. Add the following channels to the "Immune cells" group:
+>   * CD20
+>   * CD8A
+>   * CD4
+>   * CD3D
+{: .challenge}
 
-![Showing a hidden channel](../fig/screenshot-describe-channel.jpg){:style="max-width: 800px;"}
+
+## Adjusting per-channel settings
+
+Now we will move our focus down from the channel dropdown menu to the channel settings list where we
+can adjust name, color, brightness and contrast, and more.
+
+## Creating channel descriptions
+
+Short channel names are an efficient shorthand for those who already know the significance of the
+referenced proteins or other biomarkers, but they are much less helpful to outsiders from a more
+general audience. It is strongly suggested that you write a brief description (up to 30 characters)
+of each channel that explains its intended interpretation in the context of the tissue sample and
+the overall experiment. You can add these descriptions to the channels in your story by clicking the
+encircled "i" button to the right of a channel's entry in the channel settings list. Then enter the
+channel's description into the popup and click OK.
+
+![Edit channel description](../fig/screenshot-describe-channel.jpg){:style="max-width: 800px;"}
+
+> ## Enter channel descriptions
+> Set the channel description for all nine active channels as follows. This text is provided at the
+> end of content-03.txt if you wish to copy and paste it. Note that you will need to switch between
+> the channel groups to get to all the channels.
+> * DNA1: Nuclei
+> * Keratin: Crypt epithelium
+> * Ki-67: Proliferating immune cells
+> * aSMA: Blood vessels
+> * CD45: Immune cells (general)
+> * CD20: B-cells
+> * CD8A: Cytotoxic T-cells
+> * CD4: T-helper cells
+> * CD3D: T-cells (all)
+{: .challenge}
 
 
-### Toggle a channel
+## Toggle a channel's visibility
 
-You can show or hide a given channel by clicking the "eye" icon to the right of any given channel. This effect is not reflected in the Story.
+You can show or hide a channel by clicking the "eye" icon to the right of its entry in the channel
+settings list. This effect is not reflected in the published story, but it can be useful to
+temporarily isolate channels when adjusting color or brightness and contrast settings.
 
 ![Showing a hidden channel](../fig/screenshot-show-channel.jpg){:style="max-width: 800px;"}
 
-### Brightness and contrast
+
+## Brightness and contrast
 
 You can move the endpoints of the yellow range slider to adjust the brightness and contrast of the corresponding channel in the active channel group. Moving the right handle of slider from left to right will darken the corresponding channel. Moving the right handle of the slider from right to left will brighten the corresponding channel. Any adjustments will to apply to channel within the scope of the active channel group and within any new channel groups created thereafter.
 

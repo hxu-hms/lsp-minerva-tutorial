@@ -159,7 +159,7 @@ continue. In the future, you can use the Cancel button if you ever click Auto Gr
 
 ![Auto Group results](../fig/screenshot-auto-group-result.jpg){:style="max-width: 800px;" }
 
-> ## Auto Group results
+> ## Auto Group results (open response)
 >
 > What do you notice has changed on the screen after running Auto Group?
 > > ## Solution
@@ -201,7 +201,7 @@ in a new tab. Explore the story in preview mode and close that browser tab when 
 
 ![Preview button](../fig/screenshot-preview.jpg){:style="max-width: 800px;" }
 
-> ## Pair discussion: Critique the Automated story
+> ## Critique the Automated story (Pair discussion)
 >
 > Before closing the preview mode tab, turn to your neighbor and discuss together what you do and
 > don't like about the Automated story we just created. Take a moment to notice what is drawing your
