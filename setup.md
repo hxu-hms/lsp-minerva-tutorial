@@ -16,7 +16,8 @@ Download Minerva Author and unzip it according to the following instructions for
     <article role="tabpanel" class="tab-pane" id="unzip-windows">
       <p>Go to <a href="https://github.com/labsyspharm/minerva-author/releases/latest">the Minerva
       Author latest release page</a> and download the file
-      <code>minerva_author_windows.zip</code>.</p>
+      <code>minerva_author_VERSION_windows.zip</code>. (The VERSION part changes as the software is
+      updated, but the link will always take you to the most recent one)</p>
       <p>Next, unzip it:</p>
       <ol>
         <li>Right-click the .zip file</li>
@@ -28,7 +29,8 @@ Download Minerva Author and unzip it according to the following instructions for
     <article role="tabpanel" class="tab-pane" id="unzip-macos">
       <p>Go to <a href="https://github.com/labsyspharm/minerva-author/releases/latest">the Minerva
       Author latest release page</a> and download the file
-      <code>minerva_author_macos.zip</code>.</p>
+      <code>minerva_author_VERSION_macos.zip</code>. (The VERSION part changes as the software is
+      updated, but the link will always take you to the most recent one)</p>
       <p>Next, double-click the .zip file and wait for the brief decompression process to complete.</p>
       <p>Finally, delete the .zip file to free up space.</p>
     </article>

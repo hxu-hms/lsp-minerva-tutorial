@@ -24,14 +24,13 @@ keypoints:
 * While the output might not be perfect, it's at least very quick to produce.
 
 ## Launch Minerva Author
-Open your Downloads folder and navigate to the `minerva_author_windows` or `minerva_author_macos`
-folder we unzipped during Setup. Open this folder and locate the file named `minerva_author` or
-`minerva_author.exe`.
+Open your Downloads folder and navigate to the `minerva_author_VERSION` folder we unzipped during
+Setup. Open this folder and locate the file named `minerva_author` or `minerva_author.exe`.
 
 #### Windows users
-You may need to navigate one folder level deeper to find the `minerva_author` file. Once you find
-it, double-click the file to launch the program. If you see a security popup, click "More info" and
-then "Run Anyway".
+You may need to navigate one folder level deeper to find the `minerva_author.exe` file. Once you
+find it, double-click the file to launch the program. If you see a security popup, click "More info"
+and then "Run Anyway".
 
 #### MacOS users
 Hold the <kbd>Control</kbd> key and click the `minerva_author` file. Then click "Open" in the menu
@@ -41,9 +40,8 @@ that appears. If you see a security popup, click "Open".
 
 A black console window will now open. This is the actual Minerva Author application, but we will
 interact with it through a web browser. The application will take about one minute to fully launch,
-at which point your browser should automatically open a new tab displaying the Minerva Author
-interface. If an error mentioning web browsers appears in the console window, manually navigate to
-`http://127.0.0.1:2020/` in your browser. This is what the new browser tab will look like:
+at which point your web browser should automatically open a new tab displaying the Minerva Author
+interface. This is what the new browser tab will look like:
 
 ![Initial view of Minerva Story](../fig/screenshot-new-story.jpg){:style="max-width: 800px;" }
 
@@ -52,7 +50,13 @@ interface. If an error mentioning web browsers appears in the console window, ma
 > eliminate this delay.
 {: .callout}
 
-* When you want to quit Minerva Author, you will close this console window.
+> ## What to do if the new browser tab does not appear
+> If an error about web browsers appears in the console window, or the console window displays the
+> text "Running server with N threads" but the browser tab does not open, manually navigate to
+> http://127.0.0.1:2020/ in your browser.
+{: .callout}
+
+* When you want to quit Minerva Author, you will close the console window.
 * If you accidentally close the console window, close your Minerva Author web browser tab and
   re-launch the Minerva Author application by following the instructions above.
 
